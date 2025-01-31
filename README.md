@@ -48,7 +48,7 @@ mvn javafx: run
 - **src/com/questionnaire/secundary.fxml**: Definition of the interface for adding products.
 - **src/com/questionnaire/login.fxml**: Definition of the login interface (login screen).
 
-##Contributions
+## Contributions
 
 If you wish to contribute, please **fork** the project and submit a **pull request** with your changes.
 
