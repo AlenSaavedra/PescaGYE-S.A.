@@ -1,0 +1,5 @@
+module-info.class
+com\questionnaire\App.class
+com\questionnaire\Controllers\PrimaryController.class
+com\questionnaire\Controllers\SecondaryController.class
+com\questionnaire\Models\Product.class

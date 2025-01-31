@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.questionnaire.Controllers.SecondaryController">
+    <children>
+        <Label layoutX="20.0" layoutY="20.0" text="Código" />
+        <TextField fx:id="txtCodigo" layoutX="160.0" layoutY="20.0" />
+
+        <Label layoutX="20.0" layoutY="60.0" text="Descripción del producto" />
+        <TextField fx:id="txtDescripcion" layoutX="160.0" layoutY="60.0" />
+
+        <Label layoutX="20.0" layoutY="100.0" text="Cantidad" />
+        <TextField fx:id="txtCantidad" layoutX="160.0" layoutY="100.0" />
+
+        <Button fx:id="btnAgregar" layoutX="320.0" layoutY="100.0" text="Agregar" onAction="#agregarProducto" />
+
+        <TableView fx:id="tableProductos" layoutX="20.0" layoutY="150.0" prefHeight="200.0" prefWidth="450.0" >
+            <columns>
+                <TableColumn fx:id="colCodigo" text="Código" prefWidth="100" />
+                <TableColumn fx:id="colDescripcion" text="Descripción del producto" prefWidth="200" />
+                <TableColumn fx:id="colCantidad" text="Cantidad" prefWidth="100" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
